@@ -113,7 +113,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         return
     
-    message.reply_text("⚡️ *Snaps the Banhammer* ⚡️")
+    message.reply_text("GBANNING USER... *THE USER WILL BE BANNED*... GBAN ORGINATED FROM A SUDO/DEV ( GBAB LOGS @tubots_logs) ")
     
     start_time = time.time()
     datetime_fmt = "%H:%M - %d-%m-%Y"
