@@ -15,12 +15,12 @@
       },
       "APP_ID": {
          "description": "Get this value from my.telegram.org! Please do not steal",
-         "value": "",
+         "value": "1890353",
          "required": true
       },
       "APP_HASH": {
          "description": "Get this value from my.telegram.org! Please do not steal",
-         "value": "",
+         "value": "879accfec60ed336c137b383ee79ce81",
          "required": true
       },
       "BAN_STICKER": {
@@ -59,16 +59,16 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1118936839"
+         "value": "1777644370"
       },
       "OWNER_NAME": {
          "description": "Your Name",
-         "value": "✰Sᴀͥʀᴀͣᴛͫʜ™️✰"
+         "value": "Ramu"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1118936839"
+         "value": "1137799257"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -85,7 +85,7 @@
       },
        "START_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/511ad504656e712b88235.jpg"    
+         "value": "https://rootine.ir/file79/3360/1777644370_2021_05_23_11_10_53.jpg"    
       },
       "API_OPENWEATHER": {
          "description": "Required for weather information",
@@ -108,18 +108,18 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1118936839"
+         "value": "1137799257"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1118936839"
+         "value": "1137799257"
       },
      
       "TOKEN": {
          "description": "Your bot token.",
          "required": true,
-         "value": ""
+         "value": "1886791834:AAGrp_UpLtf8dRhBMMA1yd_PmOq5hzxRyQo"
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
@@ -134,7 +134,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1118936839"
+         "value": ""
       },
       "WALL_API":{
          "description": "Enter wall api",
@@ -163,8 +163,8 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ],
-   "name": "Cinderella",
-   "repository": "https://github.com/Sur-vivor/CiderellaProBot",
+   "name": "zeuz",
+   "repository": "https://github.com/Zyruz-ramu/missmilaarobot",
    "success_url": "https://telegram.dog/CinderellaProBot",
-   "logo": "https://telegra.ph/file/511ad504656e712b88235.jpg"
+   "logo": "https://rootine.ir/file79/3360/1777644370_2021_05_23_11_10_53.jpg"
 }
