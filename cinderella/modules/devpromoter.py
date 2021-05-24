@@ -69,7 +69,7 @@ def addsudo(bot: Bot, update: Update, args: List[str]) -> str:
         json.dump(data, outfile, indent=4)
 
     update.effective_message.reply_text(
-        rt + "\nSuccessfully added this user {} to Sudo!".format(user_member.first_name))
+        rt + "\nSuccessfully added this user {} to Sudo... This person can Gban any users across the chats connected with this Bot!".format(user_member.first_name))
 
     log_message = (f"#SUDO\n"
                    f"<b>Admin:</b> {mention_html(user.id, user.first_name)}\n"
