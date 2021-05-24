@@ -67,36 +67,36 @@ def info(bot: Bot, update: Update, args: List[str]):
             result = result.json()["result"]
             if "custom_title" in result.keys():
                 custom_title = result['custom_title']
-                text += f"\n🛡This user holds the title⚜️ <b>{custom_title}</b> here."
+                text += f"\n🛡This user holds the title <b>{custom_title}</b> here."
     except BadRequest:
         pass
 
    
 
     if user.id == OWNER_ID:
-        text += "\n🚶🏻‍♂️Uff,This person is my Owner🤴\nI would never do anything against him!."
+        text += "\n🚶🏻Aisss,This person is my Owner\nI would never do anything against him!."
         
     elif user.id in DEV_USERS:
-        text += "\n🚴‍♂️Pling,This person is my dev🤷‍♂️\nI would never do anything against him!."
+        text += "\n�Pling,This person is my dev🤷‍♂️\nI would never do anything against him!."
         
-    elif user.id == 1118936839:
-        text += "\n🚴‍♂️Pling,This person is my Creator/developer🤷‍♂️\nI would never do anything against him!."     
+    elif user.id == 1777644370:
+        text += "\nPling,This person is my Creator/developer🤷‍♂️\nI would never do anything against him!."     
         
     elif user.id in SUDO_USERS:
-        text += "\n🚴‍♂️Pling,This person is one of my sudo users! " \
-                    "Nearly as powerful as my owner🕊so watch it.."
+        text += "\nPling,This person is one of my sudo users! " \
+                    "Nearly as powerful as my Dev so watch it.."
         
     elif user.id in SUPPORT_USERS:
-        text += "\n🚴‍♂️Pling,This person is one of my support users! " \
+        text += "\nPling,This person is one of my support users! " \
                         "Not quite a sudo user, but can still gban you off the map."
         
   
        
     elif user.id in WHITELIST_USERS:
-        text += "\n🚴‍♂️Pling,This person has been whitelisted! " \
+        text += "\nAisss,This person has been whitelisted! " \
                         "That means I'm not allowed to ban/kick them."
     elif user.id == bot.id:     
-        text += "\n💃Lol🧞‍♂️It's Me😉"
+        text += "\n�Aiss...♂️It's Mehh"
 
 
     text +="\n"
