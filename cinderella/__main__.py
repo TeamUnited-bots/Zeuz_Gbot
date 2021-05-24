@@ -27,8 +27,8 @@ from cinderella.modules.connection import connect_button
 
 
 PM_START_TEXT = """
-_Hello_ *{}*
-Aww.. looks like you're new here. Tap on CMD's!_
+_Hey_ *{}*
+_it's meh_ *{}*\n_A Aww.. looks like you're new here. Tap on CMD's!_
 """
 
 
