@@ -33,18 +33,7 @@ _My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free t
 
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Powerful group management bot with many features! Have a look at the following for an idea of some of \
-the things I can help you with.
-*Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /settings:
-    - in PM: will send you your settings for all supported modules.
-    - in a group: will redirect you to pm, with all that chat's settings.
-{}
-And the following:
+Available commands of this bot.
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 
@@ -163,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             send_start(bot, update)
     else:
         update.effective_message.reply_text("Heya,{} Here..\nHow can I help you?".format(bot.first_name),reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="⚜️Help",url="t.me/{}?start=help".format(bot.username))]]))
+                                                [[InlineKeyboardButton(text="Help",url="t.me/{}?start=help".format(bot.username))]]))
 
 def send_start(bot, update):
     #Try to remove old message
